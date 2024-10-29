@@ -150,6 +150,14 @@ aside p{
     display: inline-block;
 }
 
+.scelte nav li:hover{
+    color: white;
+}
+
+.scelte nav li:first-child:hover{
+    border-bottom: 2px solid #adff2f;
+}
+
 h2{
     margin: 20px 10px;
 }
