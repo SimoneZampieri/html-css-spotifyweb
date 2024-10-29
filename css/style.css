@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug{
+    background-color: aquamarine;
+    border: 1px dotted black;
+}
+
+.bottom{
+    align-self: flex-end;
+}
+
+.dflex{
+    display: flex;
+}
+
+/* footer */
+
+footer{
+    height: 90px;
+    background-color: aquamarine;
+}
+
+/* main */
+
+main{
+    height: calc(100vh - 90px);
+    background-color: lightgray;
+}
+
+.container{
+    height: 100%;
+    background-color: red;
+}
+
+aside{
+    height: 100%;
+    width: 200px;
+    overflow: auto;
+}
+
+.contenuto{
+    height: 100%;
+    width: calc(100% - 200px);
+    overflow: auto;
+}
+
+.installa{
+    height: 10vh;
+}
