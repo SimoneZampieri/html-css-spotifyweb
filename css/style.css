@@ -172,3 +172,11 @@ h2{
 .didascalia{
     text-align: center;
 }
+
+p{
+    color: #717171;
+}
+
+.tonda{
+    border-radius: 50%;
+}
