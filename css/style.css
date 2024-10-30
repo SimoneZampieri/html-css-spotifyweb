@@ -22,15 +22,12 @@
     flex-wrap: wrap;
 }
 
-.dflex{
-    display: flex;
+.space{
+    justify-content: space-between;
 }
 
-/* footer */
-
-footer{
-    height: 80px;
-    background-color: #282828;
+.dflex{
+    display: flex;
 }
 
 /* main */
@@ -46,6 +43,9 @@ main{
     background-color: #080b12;
     align-items: center;
     justify-content: flex-end;
+    opacity: 0.8;
+    z-index: 99;
+    position: sticky;
 }
 
 .topbar a{
@@ -80,6 +80,17 @@ aside{
     height: calc(100% - 100px);
     overflow: auto;
 }
+
+.plus{
+    color: #717171;
+}
+
+.plus i{
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
 aside .logo{
     max-width: 60%;
 }
@@ -150,13 +161,7 @@ aside p{
     display: inline-block;
 }
 
-.scelte nav li:hover{
-    color: white;
-}
 
-.scelte nav li:first-child:hover{
-    border-bottom: 2px solid #adff2f;
-}
 
 h2{
     margin: 20px 10px;
@@ -173,7 +178,11 @@ h2{
     padding: 10px;
 }
 
-.album img{
+.album{
+    position: relative;
+}
+
+.card img{
     width: 100%;
 }
 
@@ -187,4 +196,149 @@ p{
 
 .tonda{
     border-radius: 50%;
+}
+
+div span i{
+    position: absolute;
+}
+
+/* /cards */
+
+/* footer */
+
+footer{
+    height: 80px;
+    background-color: #282828;
+}
+
+.footercont{
+    max-width: 100%;
+    align-self: center;
+}
+
+.brano{
+    align-items: center;
+}
+
+.albumcover{
+    width: 60px;
+    margin-left: 5px;
+}
+
+.albumcover img{
+    width: 100%;
+}
+
+.descrizione{
+    margin-left: 5px;
+}
+
+.descrizione span{
+    color: white;
+    font-weight: bold;
+}
+
+.folder{
+    margin-left: 10px;
+    color: #717171;
+    padding: 5px;
+}
+
+.buttons{
+    color: white;
+    padding: 0 20px;
+}
+
+.player .buttons{
+    text-align: center;
+}
+
+.player{
+    margin-top: 5px;
+}
+
+.progressbar{
+    width: 430px;
+    height: 5px;
+    background-color: #717171;
+    border-radius: 30px;
+}
+
+.progressbar div{
+    height: 100%;
+    width: 100px;
+    margin-top: 20px;
+    background-color: lightgray;
+    border-radius: 30px;
+}
+
+.volumebar{
+    width: 120px;
+    height: 5px;
+    background-color: #717171;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.volumebar div{
+    width: 50px;
+    height: 100%;
+    border-radius: 30px;
+    background-color: lightgray;
+}
+
+/* /footer */
+
+/* hover */
+
+.playlist ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.plus:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.scelte nav li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.scelte nav li:first-child:hover{
+    border-bottom: 2px solid #adff2f;
+    cursor: pointer;
+}
+
+.installa .download span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.descrizione p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.folder i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.album img:hover{
+    opacity: 0.3;
+}
+
+.album:hover::before{
+    content: '\f144';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    color: white;
 }
