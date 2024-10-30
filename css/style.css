@@ -267,14 +267,24 @@ footer{
     height: 5px;
     background-color: #717171;
     border-radius: 30px;
+    position: relative;
 }
 
-.progressbar div{
+.mediumbar{
     height: 100%;
-    width: 100px;
+    width: 155px;
     margin-top: 20px;
     background-color: lightgray;
     border-radius: 30px;
+}
+
+.puntino i{
+    color: lightgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.0;
 }
 
 .volumebar{
@@ -347,6 +357,11 @@ footer{
     font-size: 3rem;
     color: white;
 }
+
+.puntino i:hover{
+    opacity: 1;
+}
+
 /* /hover */
 
 
