@@ -251,6 +251,7 @@ footer{
 
 .player .buttons{
     text-align: center;
+    font-size: 20px;
 }
 
 .player{
@@ -342,3 +343,14 @@ footer{
     font-size: 3rem;
     color: white;
 }
+/* /hover */
+
+
+/* media */
+
+@media screen and(max-width: 700px){
+   .card{
+    width: calc(100% / 2);
+   }
+}
+
