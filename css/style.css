@@ -78,7 +78,6 @@ aside{
 
 .side1{
     height: calc(100% - 100px);
-    overflow: auto;
 }
 
 .plus{
@@ -135,6 +134,17 @@ aside p{
     content: '\f504';
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;
+}
+
+.playlist-box{
+    height: calc(100% - 160px);
+    line-height: 40px;
+}
+
+.playlist{
+    height: calc(100% - 40px);
+    line-height: 35px;
+    overflow: auto;
 }
 
 /* /sidebar */
