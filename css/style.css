@@ -265,6 +265,10 @@ footer{
     font-size: 20px;
 }
 
+.player a{
+    color: white;
+}
+
 .player{
     margin-top: 5px;
     flex-grow: 1;
