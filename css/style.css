@@ -39,6 +39,7 @@ main{
 }
 
 .topbar{
+    width: 100%;
     height: 70px;
     background-color: #080b12;
     align-items: center;
@@ -46,6 +47,7 @@ main{
     opacity: 0.8;
     z-index: 99;
     position: sticky;
+    top: 0;
 }
 
 .topbar a{
@@ -376,6 +378,9 @@ footer{
     opacity: 1;
 }
 
+.icons ul li:hover{
+    color: white;
+}
 /* /hover */
 
 
