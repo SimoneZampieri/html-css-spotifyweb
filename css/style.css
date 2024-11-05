@@ -126,10 +126,18 @@ aside p{
     margin-top: 40px;
 }
 
+.download span{
+    padding-left: 10px;
+}
+
 .installa .download span::before{
     content: '\f0ab';
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;
+}
+
+.simo span{
+    padding-left: 5px;
 }
 
 .simo span::before{
@@ -406,3 +414,4 @@ footer{
         width: calc(100% / 6);
     }
 }
+
