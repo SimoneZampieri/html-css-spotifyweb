@@ -415,3 +415,44 @@ footer{
     }
 }
 
+@media screen and (max-width: 699px){
+    .card{
+        width: calc(100% / 2);
+    }
+
+    aside{
+        width: 100px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #icons ul li span{
+        display: none;
+    }
+
+    #icons img{
+        size: 50px;
+    }
+
+    .playlist-box{
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
+
+    .contenuto{
+        width: calc(100% - 100px);
+    }
+
+    .download span{
+        display: none;
+    }
+
+    .simo span{
+        display: none;
+    }
+}
